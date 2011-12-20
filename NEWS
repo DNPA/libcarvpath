@@ -1,0 +1,4 @@
+1.0.0 : Complete rewrite of libcarvpath. 
+        Cleaner code.
+        Reference count bug in flatten fixed.
+        Moved from autotools to cmake.

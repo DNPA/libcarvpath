@@ -1,0 +1,30 @@
+The CarvPath library has the following prerequisites:
+
+* cmake.
+* sqlite3 development files.
+* openssl development files.
+
+To build the library run:
+
+  cmake src
+  make
+
+To make sure everything works correctly you could run:
+
+  make test
+
+To install the library use the following command:
+
+  sudo make install
+  sudo /sbin/ldconfig
+
+
+This version of LibCarvPath has been tested to run on 64 bit x86 linux, but care has been 
+taken in development to avoid non portable constructs. In theory LibCarvPath should build
+and run on at least all *NIX like systems. There is even a reasonable change that it will
+build and run on MS-Windows, but this has not been validated.
+
+Note: There is also a 'configure' file. "DON'T USE IT". Its there only for people who don't 
+      read files like this one, so they have a good change of getting everything build when
+      blindly using 'configure','make','sudo make install'. This subproject uses the cmake
+      build system.

@@ -1,0 +1,4 @@
+This library libcarvpath is meant as a simple translation library to map
+multi level fragment lists to virtual paths and back. It is meant to be
+used  by forensic carving tools and by pseudo filesystems that give access
+to data in disk imaging file formats (raw,ewf,aff).
